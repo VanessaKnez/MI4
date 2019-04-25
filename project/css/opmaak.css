@@ -1,0 +1,14 @@
+.h1Opmaak {
+    text-align: center;
+    margin: 24px auto;
+    font-size: 34px;
+}
+
+#planRestaurantDeel1 {
+    float: left;
+    margin-left: 15vw;
+}
+
+#planRestaurantDeel2 {
+    margin-right: 10vw;
+}
