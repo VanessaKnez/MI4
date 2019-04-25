@@ -66,3 +66,10 @@
 * database opstelling gemaakt
 * sql geschreven
 * primary keys gezet
+
+## week 11 (x gewerkt)
+
+### 26/04/2019
+* 30 min gewerkt
+* logo proberen te maken
+* achtergrond gezocht voor de login pagina
