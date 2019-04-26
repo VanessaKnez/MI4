@@ -4,11 +4,28 @@
     font-size: 34px;
 }
 
-#planRestaurantDeel1 {
-    float: left;
-    margin-left: 15vw;
+.login-screen-content {
+    background-image: url("./img/background.jpg");
 }
 
-#planRestaurantDeel2 {
-    margin-right: 10vw;
+#btnLogin {
+    border-radius: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#email,
+#password {
+    border-radius: 24px;
+    background-color: lightgray;
+    opacity: 0.5;
+    text-indent: 10px;
+    text-decoration: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
