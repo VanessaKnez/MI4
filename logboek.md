@@ -70,6 +70,12 @@
 ## week 11 (x gewerkt)
 
 ### 26/04/2019
-* 30 min gewerkt
+* 5h50 gewerkt
 * logo proberen te maken
 * achtergrond gezocht voor de login pagina
+* logo gemaakt
+* layout van login pagina gewijzigd (input, button enz ronder en mooier maken)
+* index pagina een login pagina van gemaakt
+* had heel veel problemen sinds de wijzigingen
+* kon niet meer navigeren
+* terug naar de eerste versie gegaan maar nog steeds met de gewijzigde layout van de login pagina
