@@ -9,73 +9,64 @@
     </div>
     <div class="page-content">
         <div class="page-content register-screen-content">
-            <div class="login-screen-title">Register</div>
+            <div class="login-screen-title"><img src="img/logoBoek.jpg" alt="logo" id="imgLogoBoekLogin" class="center"></div>
             <div class="list">
                 <ul>
                     <li class="item-content item-input">
                         <div class="item-inner">
-                            <div class="item-title item-label">Firstname</div>
                             <div class="item-input-wrap">
-                                <input type="text" name="firstname" placeholder="Your firstname" id="firstname"> </div>
+                                <input type="text" name="firstname" placeholder="Your first name" id="inptFirstName"> </div>
                         </div>
                     </li>
                     <li class="item-content item-input">
                         <div class="item-inner">
-                            <div class="item-title item-label">Lastname</div>
                             <div class="item-input-wrap">
-                                <input type="text" name="lastname" placeholder="Your lastname" id="lastname"> </div>
+                                <input type="text" name="lastname" placeholder="Your last name" id="inptLastName"> </div>
                         </div>
                     </li>
                     <li class="item-content item-input">
                         <div class="item-inner">
-                            <div class="item-title item-label">Email</div>
                             <div class="item-input-wrap">
-                                <input type="text" name="username" placeholder="Your username" id="email"> </div>
+                                <input type="text" name="username" placeholder="Your email address" id="inptEmail"> </div>
                         </div>
                     </li>
                     <li class="item-content item-input">
                         <div class="item-inner">
-                            <div class="item-title item-label">City</div>
                             <div class="item-input-wrap">
-                                <input type="text" name="city" placeholder="Your username" id="city"> </div>
+                                <input type="text" name="city" placeholder="Your city" id="inptCity"> </div>
                         </div>
                     </li>
                     <li class="item-content item-input">
                         <div class="item-inner">
-                            <div class="item-title item-label">Postal code</div>
                             <div class="item-input-wrap">
-                                <input type="text" name="postalcode" placeholder="Your postal code" id="postalcode"> </div>
+                                <input type="number" name="postalcode" placeholder="Your postal code" id="inptPostalCode"> </div>
                         </div>
                     </li>
                     <li class="item-content item-input">
                         <div class="item-inner">
-                            <div class="item-title item-label">Phone number</div>
                             <div class="item-input-wrap">
-                                <input type="text" name="phonenumber" placeholder="Your phone number" id="phonenumber"> </div>
+                                <input type="number" name="phonenumber" placeholder="Your phone number" id="inptPhoneNumber"> </div>
                         </div>
                     </li>
                     <li class="item-content item-input">
                         <div class="item-inner">
-                            <div class="item-title item-label">Password</div>
                             <div class="item-input-wrap">
-                                <input type="password" name="password" placeholder="Your password" id="password"> </div>
+                                <input type="password" name="password" placeholder="Your password" id="inptPassword"> </div>
                         </div>
                     </li>
                     <li class="item-content item-input">
                         <div class="item-inner">
-                            <div class="item-title item-label">Confirm Password</div>
                             <div class="item-input-wrap">
-                                <input type="password" name="confirmpassword" placeholder="Re-type your password" id="confirmpassword"> </div>
+                                <input type="password" name="confirmpassword" placeholder="Re-type your password" id="inptConfirmPassword"> </div>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="list">
                 <ul>
-                    <li> <a href="#" onclick="register();" class="item-link list-button login-button">Register</a> </li>
-             
+                    <li> <a href="#" onclick="register();" class="item-link list-button login-button" id="btnRegistreer">Register</a> </li>
+                    <li> <a href="/gdpr/" onclick="GDPR();" class="item-link list-button login-button" id="btnGDPRlink">Why do we need this information from you?</a> </li>
                 </ul>
-             
             </div>
         </div>
     </div>

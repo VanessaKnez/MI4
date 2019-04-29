@@ -42,4 +42,8 @@ var routes = [
         path: '/profiel/',
         url: './pages/profiel.html'
     },
+    {
+        path: '/gdpr/',
+        url: './pages/GDPR.html'
+    },
 ];
