@@ -79,3 +79,9 @@
 * had heel veel problemen sinds de wijzigingen
 * kon niet meer navigeren
 * terug naar de eerste versie gegaan maar nog steeds met de gewijzigde layout van de login pagina
+
+### 27/04/2019
+* 1h gewerkt
+* opmaak veranderd van de login pagina, registreer pagina en wachtwoord vergeten pagina
+* GDPR pagina gemaakt, waarom wij de informatie nodig hebben bij de registreer pagina
+* opmaak moet nog steeds veranderen, is niet zoals ik wil
