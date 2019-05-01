@@ -1,4 +1,4 @@
-# Logboek Vanessa Knez r0698813 2TI2 (totaal 34h50)
+# Logboek Vanessa Knez r0698813 2TI2 (totaal 41h40)
 
 ## week 1 (4h gewerkt)
 
@@ -67,7 +67,7 @@
 * sql geschreven
 * primary keys gezet
 
-## week 11 (x gewerkt)
+## week 11 (6h50 gewerkt)
 
 ### 26/04/2019
 * 5h50 gewerkt
@@ -85,3 +85,13 @@
 * opmaak veranderd van de login pagina, registreer pagina en wachtwoord vergeten pagina
 * GDPR pagina gemaakt, waarom wij de informatie nodig hebben bij de registreer pagina
 * opmaak moet nog steeds veranderen, is niet zoals ik wil
+
+## week 12 (x gewerkt)
+
+### 01/05
+* 2h30 gewerkt
+* gezocht voor een oplossing met het probleem dat ik had met brackets, zonder de live preview kon ik niet verder werken
+* mail tekst gemaakt voor wanneer je een wachtwoord bent vergeten en om jouw registratie te vervoledigen
+* chat pagina gekopieerd van framework7
+* buttons aangepast in CSS
+* profiel pagina inputs veranderd in CSS
