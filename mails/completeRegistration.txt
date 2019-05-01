@@ -1,0 +1,8 @@
+Dear <<user>>,
+
+Welcome to Books and thank you for creating an account with us.
+To complete your registration please click on the link below.
+<<link>>
+
+Yours faithfulle,
+Books
