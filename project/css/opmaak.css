@@ -14,21 +14,42 @@
 
 #btnLogin,
 #btnWachtwoordVergeten,
-#btnRegistreer {
+#btnRegistreer,
+#btnProfiel,
+#btnAddBoek {
     border-radius: 24px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-#inptEmail,
-#inptPassword,
-#inptFirstName,
-#inptLastName,
-#inptCity,
-#inptPostalCode,
-#inptPhoneNumber,
-#inptPassword,
-#inptConfirmPassword {
+#btnRegistreerLoginPagina,
+#btnWachtwoordVergetenLoginPagina {
+    background-color: transparent;
+    color: #000099;
+    margin-top: 1vh;
+}
+
+#btnRegistreerLoginPagina {
+    float: left;
+    margin-left: 8vw;
+}
+
+#inptEmailRegistratie,
+#inptPasswordRegistratie,
+#inptFirstNameRegistratie,
+#inptLastNameRegistratie,
+#inptCityRegistratie,
+#inptPostalCodeRegistratie,
+#inptPhoneNumberRegistratie,
+#inptPasswordRegistratie,
+#inptConfirmPasswordRegistratie,
+#inptUsernameProfiel,
+#inptEmailProfiel,
+#inptZipcodeProfiel,
+#inptCityProfiel,
+#inptSchoolProfiel,
+#inptOptionProfiel,
+#inptPasswordProfiel {
     border-radius: 24px;
     background-color: lightgray;
     opacity: 0.7;
