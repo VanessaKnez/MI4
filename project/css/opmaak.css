@@ -5,11 +5,12 @@
 }
 
 .login-screen-content {
-    background-image: url("./img/background.jpg");
+    background-image: url("./img/background.jpg"); 
 }
 
 .page-content {
-    background: url(background4.jpg);
+    /*background-color: #363F80;*/
+    background: url(background.jpg);
 }
 
 #btnLogin,
@@ -17,21 +18,24 @@
 #btnRegistreer,
 #btnProfiel,
 #btnAddBoek {
-    border-radius: 24px;
-    margin-left: 10px;
-    margin-right: 10px;
+    border-radius: 10px;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4D236D;
+    color: white;
 }
 
 #btnRegistreerLoginPagina,
 #btnWachtwoordVergetenLoginPagina {
     background-color: transparent;
-    color: #000099;
+    color: #BDBDBD;
     margin-top: 1vh;
 }
 
 #btnRegistreerLoginPagina {
     float: left;
-    margin-left: 8vw;
+    margin-left: 10vw;
 }
 
 #inptEmailRegistratie,
@@ -50,11 +54,26 @@
 #inptSchoolProfiel,
 #inptOptionProfiel,
 #inptPasswordProfiel {
-    border-radius: 24px;
-    background-color: lightgray;
-    opacity: 0.7;
-    text-indent: 10px;
-    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inptEmailLogin {
+    margin-top: 4vh;
+}
+
+#inptEmailLogin,
+#inptPasswordLogin {
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #btnGDPRlink {
@@ -62,6 +81,10 @@
     margin-top: auto;
     margin-bottom: -55px;
     font-size: 10px;
+}
+
+#imgLogoBoekLogin {
+    margin-top: 6vh;
 }
 
 .center {
