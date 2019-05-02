@@ -95,3 +95,9 @@
 * chat pagina gekopieerd van framework7
 * buttons aangepast in CSS
 * profiel pagina inputs veranderd in CSS
+
+### 02/05
+* 6h gewerkt
+* volledige nieuwe design gemaakt, het oude stond mij niet aan
+* ook een nieuwe logo gemaakt
+* geprobeerd de kleur van de placeholder te veranderen maar dit is niet gelukt, ik kan wel de font-size veranderen, italics zetten, bold zetten enz maar niet de kleur veranderen
