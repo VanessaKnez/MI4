@@ -13,6 +13,43 @@
     background: url(background.jpg);
 }
 
+.navbar-inner {
+    background-color: #4D236D;
+}
+
+.title.sliding {
+    color: white;
+}
+
+.icon.material-icons.md-only {
+    color: white;
+}
+
+.panel-close {
+    background-color: #34184C;
+}
+
+.links-list a,
+.navbar .title,
+.icon-back:after,
+.icon-forward:after,
+.icon-next:after,
+.icon-prev:after {
+    color: white;
+}
+
+li {
+    background-color: #34184C;
+}
+
+.list ul {
+    margin-top: 10vh;
+}
+
+#btnNavProfiel {
+    margin-top: 15vh;
+}
+
 #btnLogin,
 #btnWachtwoordVergeten,
 #btnRegistreer,
@@ -24,18 +61,27 @@
     margin-right: auto;
     background-color: #4D236D;
     color: white;
+    text-align: center;
 }
 
-#btnRegistreerLoginPagina,
-#btnWachtwoordVergetenLoginPagina {
+#btnWachtwoordVergetenLoginPagina,
+#btnRegistreerLoginPagina {
     background-color: transparent;
-    color: #BDBDBD;
-    margin-top: 1vh;
+    color: #7A7A7A;
+    font-size: 12px;
+    font-style: oblique;
+}
+
+#btnWachtwoordVergetenLoginPagina {
+    margin-top: -8vh;
+}
+
+#btnLogin {
+    margin-top: 2vh;
 }
 
 #btnRegistreerLoginPagina {
-    float: left;
-    margin-left: 10vw;
+    top: 10vh;
 }
 
 #inptEmailRegistratie,
@@ -53,7 +99,18 @@
 #inptCityProfiel,
 #inptSchoolProfiel,
 #inptOptionProfiel,
-#inptPasswordProfiel {
+#inptPasswordProfiel,
+#inptISBNBoekToevoegen,
+#inptTitleBoekToevoegen,
+#inptAuthorBoekToevoegen,
+#inptSchoolBoekToevoegen,
+#inptCityBoekToevoegen,
+#inptOptionBoekToevoegen,
+#inptStateBoekToevoegen,
+#inptDescriptionBoekToevoegen,
+#inptSellOrRentBoekToevoegen,
+#inptPriceBoekToevoegen,
+#inptEmailWachtwoordVergeten {
     background-color: transparent;
     color: white;
     border-bottom: 1px solid white;
@@ -62,8 +119,8 @@
     margin-right: auto;
 }
 
-#inptEmailLogin {
-    margin-top: 4vh;
+#inptVeldenLogin {
+    margin-top: 0vh;
 }
 
 #inptEmailLogin,
@@ -76,15 +133,23 @@
     margin-right: auto;
 }
 
+::placeholder {
+    color: #999 !important;
+}
+
 #btnGDPRlink {
     background-color: transparent;
     margin-top: auto;
     margin-bottom: -55px;
     font-size: 10px;
+    color: gray;
+    text-align: center;
+    font-style: oblique;
 }
 
 #imgLogoBoekLogin {
     margin-top: 6vh;
+    position: relative;
 }
 
 .center {

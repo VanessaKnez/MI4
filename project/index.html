@@ -5,99 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="#2196f3">
     <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
-    <title>Reservatie</title>
-    <link rel="stylesheet" href="css/framework7.min.css">
+    <title>Books</title>
+    <link rel="stylesheet" href="../../packages/core/css/framework7.bundle.min.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/opmaak.css">
+    <link rel="icon" href="img/logoBooks.jpg">
     <link rel="apple-touch-icon" href="img/logoBooks.jpg">
     <link rel="icon" href="img/logoBooks.jpg">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
     <div id="app">
-        <!-- Status bar overlay for fullscreen mode-->
         <div class="statusbar"></div>
-        <!-- Left panel with cover effect-->
-        <div class="panel panel-left panel-cover theme-dark">
-            <div class="view">
-                <div class="page">
-                    <div class="navbar">
-                        <div class="navbar-inner">
-                            <div class="title">Menu</div>
-                        </div>
-                    </div>
-                    <div class="page-content">
-                        <div class="block"> <a href="/profiel/" class="item-content item-link panel-close">Profile</a> </div>
-                        <div class="block"> <a href="/boeken/" class="item-content item-link panel-close">Books</a> </div>
-                        <div class="block"> <a href="/boekToevoegen/" class="item-content item-link panel-close">Add book</a> </div>
-                        <div class="block"> <a href="/bewaardeBoeken/" class="item-content item-link panel-close">Saved Books</a> </div>
-                        <div class="block"> <a href="/chat/" class="item-content item-link panel-close">Chat</a> </div>
+        <div class="panel panel-left panel-cover panel-resizable">
+            <div class="page">
+                <div class="page-content">
+                    <div class="list links-list">
+                        <ul>
+                            <li> <a href="/profiel/" class="panel-close" id="btnNavProfiel">Profile</a> </li>
+                            <li> <a href="/boeken/" class="panel-close">Books</a> </li>
+                            <li> <a href="/boekToevoegen/" class="panel-close">Add book</a> </li>
+                            <li> <a href="/bewaardeBoeken/" class="panel-close">Saved Books</a> </li>
+                            <li> <a href="/chat/" class="panel-close">Chat</a> </li>
+                            <li> <a href="/testcommentsection/" class="panel-close">Test comment section</a> </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Views/Tabs container -->
-        <div class="views  ios-edges">
-            <!-- Your main view/tab, should have "view-main" class. It also has "tab-active" class -->
-            <div id="view-home" class="view view-main tab tab-active">
-                <!-- Page, data-name contains page name which can be used in page callbacks -->
-                <div class="page" data-name="home">
-                    <!-- Top Navbar -->
-                    <div class="navbar">
-                        <div class="navbar-inner">
-                            <div class="left">
-                                <a href="#" class="link icon-only panel-open" data-panel="left"> <i class="icon f7-icons ios-only">menu</i> <i class="icon material-icons md-only">menu</i> </a>
-                            </div>
+        <div class="view view-main view-init safe-areas" data-master-detail-breakpoint="800" data-url="/">
+            <div class="page">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="left">
+                            <a href="#" class="link icon-only panel-open" data-panel="left"> <i class="icon f7-icons if-not-md">menu</i> <i class="icon material-icons md-only">menu</i> </a>
                             <div class="title sliding">Home</div>
-                            <div class="right">
-                                <a href="#" class="link icon-only panel-open" data-panel="right"> <i class="icon f7-icons ios-only">menu</i> </a>
-                            </div>
                         </div>
                     </div>
-                    <!-- BEGIN LOGIN -->
-                    <div class="page-content">
-                        <div class="page-content login-screen-content">
-                            <div class="login-screen-title"><img src="img/logoBooks.jpg" alt="logo" id="imgLogoBoekLogin" class="center"></div>
-                            <div class="list">
-                                <ul>
-                                    <li class="item-content item-input">
-                                        <div class="item-inner">
-                                            <div class="item-input-wrap">
-                                                <input type="text" name="username" placeholder="Your username" id="inptEmailLogin"> </div>
-                                        </div>
-                                    </li>
-                                    <li class="item-content item-input">
-                                        <div class="item-inner">
-                                            <div class="item-input-wrap">
-                                                <input type="password" name="password" placeholder="Your password" id="inptPasswordLogin"> </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="list">
-                                <ul>
-                                    <li> <a href="" onclick="login();" class="item-link list-button login-button" id="btnLogin">Login</a> </li>
-                                    <li> <a href="/register/" onclick="register();" class="item-link list-button login-button" id="btnRegistreerLoginPagina">Create account</a> </li>
-                                    <li> <a href="/forgotPassword/" onclick="forgotPassword();" class="item-link list-button login-button" id="btnWachtwoordVergetenLoginPagina">Forgot password</a> </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- EINDE LOGIN -->
                 </div>
+                <!-- BEGIN LOGIN -->
+                <div class="page-content">
+                    <div class="page-content login-screen-content">
+                        <div class="login-screen-title"><img src="img/logoBooks.jpg" alt="logo" id="imgLogoBoekLogin" class="center"></div>
+                        <div class="list">
+                            <ul id="inptVeldenLogin">
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-input-wrap">
+                                            <input type="text" name="username" placeholder="Your username" id="inptEmailLogin"> </div>
+                                    </div>
+                                </li>
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-input-wrap">
+                                            <input type="password" name="password" placeholder="Your password" id="inptPasswordLogin"> </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <li> <a href="/wachtwoordVergeten/" onclick="forgotPassword();" class="item-link list-button login-button" id="btnWachtwoordVergetenLoginPagina">Forgot your password?</a> </li>
+                                <li> <a href="" onclick="login();" class="item-link list-button login-button" id="btnLogin">Login</a> </li>
+                                <li> <a href="/registreer/" onclick="registerIndex();" class="item-link list-button login-button" id="btnRegistreerLoginPagina">New here? Create an account</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- EINDE LOGIN -->
             </div>
         </div>
     </div>
-    <script src="js/framework7.min.js"></script>
-    <script src="js/routes.js"></script>
-    <script src="js/app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.7/xlsx.core.min.js"></script>
     <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBdviOyrwvQ1lAuutJfZeEg-rIrYM7xg8c"
+            , authDomain: "boekenproject-542b9.firebaseapp.com"
+            , databaseURL: "https://boekenproject-542b9.firebaseio.com"
+            , projectId: "boekenproject-542b9"
+            , storageBucket: "boekenproject-542b9.appspot.com"
+            , messagingSenderId: "508997802635"
+        };
+        firebase.initializeApp(config);
     </script>
+    <script src="../../packages/core/js/framework7.bundle.min.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/postcodes.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

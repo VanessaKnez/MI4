@@ -1,0 +1,82 @@
+<div class="page">
+    <div class="navbar">
+        <div class="navbar-inner sliding">
+            <div class="left">
+                <a href="/" class="link back"> <i class="icon icon-back"></i> <span class="ios-only">Back</span> </a>
+            </div>
+            <div class="title">Add book</div>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="list">
+               <ul>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">ISBN</div>
+                            <div class="item-input-wrap">
+                                <input type="text" name="toevoegen_ISBN" placeholder="ISBN" id="toevoegen_ISBN"> </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Title</div>
+                            <div class="item-input-wrap">
+                                <input type="text" name="toevoegen_titel" placeholder="Title" id="toevoegen_titel"> </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Author</div>
+                            <div class="item-input-wrap">
+                                <input type="text" name="toevoegen_auteur" placeholder="Author" id="toevoegen_auteur"> </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">State</div>
+                            <div class="item-input-wrap">
+                                <input type="text" name="toevoegen_staat" placeholder="School" id="toevoegen_staat"> </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                            <a class="item-link smart-select smart-select-init" data-open-in="sheet">
+                                    <select name="toevoegen_verkoopOfVerhuur" id="toevoegen_verkoopOfVerhuur">
+                                        <option value="sell" >Sell</option>
+                                        <option value="rent">Rent</option>
+                                    </select>
+                                    <!--<div class="item-content">
+                                        <div class="item-inner"></div>-->
+                                            <div class="item-title">Sell or rent</div>
+                                        <!--</div>
+                                    </div>-->
+                                </a>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Price</div>
+                            <div class="item-input-wrap">
+                                <input type="number" name="toevoegen_prijs" placeholder="Price" id="toevoegen_prijs"> </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <a class="item-link smart-select smart-select-init" data-open-in="sheet">
+                            <select name="toevoegen_favoriet" id="toevoegen_favoriet">
+                                <option value="yes" selected>yes</option>
+                                <option value="no">no</option>
+                            </select>
+                            <!--<div class="item-content">
+                                <div class="item-inner"></div>-->
+                                    <div class="item-title">Favorite</div>
+                                <!--</div>
+                            </div>-->
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        <div class="list">
+                <ul>
+                    <li> <a href="#" onclick="AddBook();" class="item-link list-button login-button">Add book</a> </li>
+                </ul>
+            </div>
+    </div>
+</div>

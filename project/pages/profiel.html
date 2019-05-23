@@ -9,56 +9,67 @@
     </div>
     <div class="page-content">
         <div class="list">
-                <ul>
-                    <li class="item-content item-input">
-                        <div class="item-inner">
-                            <div class="item-input-wrap">
-                                <input type="text" name="firstname" placeholder="Username" id="inptUsernameProfiel"> </div>
-                        </div>
-                    </li>
-                    <li class="item-content item-input">
-                        <div class="item-inner">
-                            <div class="item-input-wrap">
-                                <input type="text" name="lastname" placeholder="Email" id="inptEmailProfiel"> </div>
-                        </div>
-                    </li>
-                    
-                    <li class="item-content item-input">
-                        <div class="item-inner">
-                            <div class="item-input-wrap">
-                                <input type="text" name="username" placeholder="Zipcode" id="inptZipcodeProfiel"> </div>
-                        </div>
-                    </li>
-                    <li class="item-content item-input">
-                        <div class="item-inner">
-                            <div class="item-input-wrap">
-                                <input type="text" name="postalcode" placeholder="City" id="inptCityProfiel"> </div>
-                        </div>
-                    </li>
-                    <li class="item-content item-input">
-                        <div class="item-inner">
-                            <div class="item-input-wrap">
-                                <input type="text" name="city" placeholder="School" id="inptSchoolProfiel"> </div>
-                        </div>
-                    </li>
-                    <li class="item-content item-input">
-                        <div class="item-inner">
-                            <div class="item-input-wrap">
-                                <input type="text" name="phonenumber" placeholder="Option" id="inptOptionProfiel"> </div>
-                        </div>
-                    </li>
-                    <li class="item-content item-input">
-                        <div class="item-inner">
-                            <div class="item-input-wrap">
-                                <input type="password" name="confirmpassword" placeholder="Password" id="inptPasswordProfiel"> </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+            <ul>
+                <li class="item-content item-input">
+                    <div class="item-inner">
+                        <div class="item-input-wrap">
+                            <input type="text" name="firstname" placeholder="Username" id="inptUsernameProfiel"> </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-inner">
+                        <div class="item-input-wrap">
+                            <input type="text" name="lastname" placeholder="Email" id="inptEmailProfiel"> </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-inner">
+                        <div class="item-input-wrap">
+                            <input type="text" name="username" placeholder="Zipcode" id="inptZipcodeProfiel"> </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-inner">
+                        <div class="item-input-wrap">
+                            <input type="text" name="postalcode" placeholder="City" id="inptCityProfiel"> </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-inner">
+                        <div class="item-input-wrap">
+                            <input type="text" name="city" placeholder="School" id="inptSchoolProfiel"> </div>
+                    </div>
+                </li>
+                <li>
+                    <select id="slctWoonplaatsProfiel">
+                        <option value=""></option>
+                    </select>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-inner">
+                        <div class="item-input-wrap">
+                            <input type="text" name="phonenumber" placeholder="Option" id="inptOptionProfiel"> </div>
+                    </div>
+                </li>
+                <li class="item-content item-input">
+                    <div class="item-inner">
+                        <div class="item-input-wrap">
+                            <input type="password" name="confirmpassword" placeholder="Password" id="inptPasswordProfiel"> </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
         <div class="list">
-                <ul>
-                    <li> <a href="#" onclick="ChangeProfile();" class="item-link list-button login-button" id="btnProfiel">Submit</a> </li>
-                </ul>
-            </div>
+            <ul>
+                <li> <a href="#" onclick="changeProfile();" class="item-link list-button login-button" id="btnProfiel">Submit</a> </li>
+            </ul>
+        </div>
+        <p id="info"></p>
     </div>
 </div>
+<!-- <script src="jquery-3.3.1.min.js"></script> -->
+<script src="zipcodes.js"></script>
+<script>
+    'use strict';
+    //}
+</script>

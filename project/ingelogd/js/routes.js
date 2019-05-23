@@ -32,6 +32,10 @@ var routes = [
     url: './pages/boeken_boek_toevoegen.html'
 },
 {
+    path: '/persoonlijkeBoeken/',
+    url: './pages/boeken_persoonlijkeBoeken.html'
+},
+{
     path: '/boeken/',
     url: './pages/boeken_boeken.html'
 },
@@ -43,8 +47,4 @@ var routes = [
     path: '/profiel/',
     url: './pages/profiel.html'
 },
-{
-    path: '/testcommentsection/',
-    url: './pages/testcommentsection.html'
-},    
 ];
