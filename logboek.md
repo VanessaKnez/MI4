@@ -1,4 +1,4 @@
-# Logboek Vanessa Knez r0698813 2TI2 (totaal 41h40)
+# Logboek Vanessa Knez r0698813 2TI2 (totaal 71h10)
 
 ## week 1 (4h gewerkt)
 
@@ -86,7 +86,7 @@
 * GDPR pagina gemaakt, waarom wij de informatie nodig hebben bij de registreer pagina
 * opmaak moet nog steeds veranderen, is niet zoals ik wil
 
-## week 12 (x gewerkt)
+## week 12 (8h30 gewerkt)
 
 ### 01/05
 * 2h30 gewerkt
@@ -101,3 +101,32 @@
 * volledige nieuwe design gemaakt, het oude stond mij niet aan
 * ook een nieuwe logo gemaakt
 * geprobeerd de kleur van de placeholder te veranderen maar dit is niet gelukt, ik kan wel de font-size veranderen, italics zetten, bold zetten enz maar niet de kleur veranderen
+
+## week 13 (10h gewerkt)
+
+### 10/05/2019
+* 10h gewerkt
+* gewerkt aan de postcodes en gezocht hoe dat het gelezen moet worden, tenminste op het scherm tonen
+* veel errors bij het schrijven van de code om het bestand te kunnen lezen en dan de gemeente te tonen van de ingeschreven postcode
+* nog aan database gewerkt, relaties correct leggen, heb al een stuk laten verbeteren door een medestudent
+
+## week 14 (11h gewerkt)
+
+### 15/05/2019
+* 4h gewerkt
+* nog bezig met json bestand
+* controles uitvoeren op velden
+* kleine CSS details aangepast
+
+### 17/05/2019
+* 7h gewerkt
+* json data laden en resultaat tonen
+* geprobeerd data te tonen in de dropdown
+* bekeken hoe chat functie make
+* misschien overschakelen naar comment sectie
+
+## week 12 (x gewerkt)
+
+### 22/05/2019
+* 4h gewerkt
+* comment sectie maken
