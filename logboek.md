@@ -193,25 +193,26 @@
 * ik kreeg telkens een error "Uncaught ReferenceError: postcodes is not defined"
 * heel erg lang gezocht naar een oplossing maar niks gevonden
 * dit is de code dat ik had op de oude versie van het project en dit werkte ook:
-function changeProfile() {
-    "use strict";
-    var zipcode = document.getElementById("inptZipcodeProfiel").value;
-    if (zipcode != "") {
-        if (postcodes[zipcode].length > 0) {
-            for (var i in postcodes[zipcode]) {
-                for (var j in postcodes[zipcode][i])
-                // document.getElementById("inptCityProfiel").innerHTML = "<input onclick =look(" + postcodes[zipcode][i].Plaatsnaam + ")>" + "</input>";
-                document.getElementById("inptCityProfiel").innerHTML += "<option onclick =look(" + JSON.stringify(postcodes[zipcode]) + ")>" + JSON.stringify(postcodes[zipcode][i]) + "</option>";
-            }
-        }
-        else {
-            alert("Onbestaande postcode");
-        }
-    }
-    else {
-        alert("Fill in the zipcode.");
-    }
-}
+
+* function changeProfile() {
+* "use strict";
+* var zipcode = document.getElementById("inptZipcodeProfiel").value;
+* if (zipcode != "") {
+*   if (postcodes[zipcode].length > 0) {
+*       for (var i in postcodes[zipcode]) {
+*           for (var j in postcodes[zipcode][i])
+*               // document.getElementById("inptCityProfiel").innerHTML = "<input onclick =look(" + postcodes[zipcode][i].Plaatsnaam + ")>" + "</input>";
+*               document.getElementById("inptCityProfiel").innerHTML += "<option onclick =look(" + JSON.stringify(postcodes[zipcode]) + ")>" + JSON.stringify(postcodes[zipcode][i]) + "</option>";
+*       }
+*   }
+*   else {
+*       alert("Onbestaande postcode");
+*   }
+* }
+*   else {
+*       alert("Fill in the zipcode.");
+*   }
+* }
 
 in de html had ik dit:
 * li
