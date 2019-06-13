@@ -1,4 +1,4 @@
-# Logboek Vanessa Knez r0698813 2TI2 (totaal 71h10)
+# Logboek Vanessa Knez r0698813 2TI2 (totaal 155h50)
 
 ## week 1 (4h gewerkt)
 
@@ -125,8 +125,99 @@
 * bekeken hoe chat functie make
 * misschien overschakelen naar comment sectie
 
-## week 12 (x gewerkt)
+## week 12 (14h30 gewerkt)
 
 ### 22/05/2019
 * 4h gewerkt
 * comment sectie maken
+* input veld om commentaar toe te voegen en div om de commentaar te tonen
+* had problemen met het tonen van commentaar in de div
+
+### 24/05/2019
+* 10h30 gewerkt
+* nog aan comment sectie gewerkt
+* het probleem van het tonen van commentaar in de div opgelost
+* daarna geprobeerd om comment toe te voegen met firebase
+* layout van comment
+* alles deftigg plaatsen in de comment (de structuur, naam, uur, datum en daarna comment)
+
+## week 13 (7h gewerkt)
+
+### 27/05/2019
+* 4h gewerkt
+* documentatie geschreven
+* documentatie nagelezen op schrijf- en taalfouten
+* nog aan kleine css details gewerkt (layout dat niet mooi was dat ik heb opgemerkt tijdens screenshots genomen te hebben)
+
+### 28/05/2019
+* 3h gewerkt
+* rest van doucmentatie bijgevoegd
+* alles laten nakijken en aangepast
+
+## week 15 (63h10 gewerkt)
+
+### 08/06/2019
+* 8h40 gewerkt
+* comment verder aan gewerkt voor het toe te voegen, daarna heeft dries mij verder geholpen
+* nu de comment van de database halen en tonen in de div
+
+### 09/06/2019
+* 12h40h gewerkt
+* ISBN gewerkt
+* ISBN met 10 karakters ging moeilijk, er waren fouten die ik niet meteen heb gevonden
+* heb het probleem eventjes laten liggen met de ISBN 10 karakters en ben verder over gegaan naar comment ophalen van database en tonen in div
+* comment ophalen van database en tonen in div ging moeilijker dan gedacht, hierbij heeft dries mij ook geholpen
+
+### 10/06/2019
+* 11h gewerkt
+* ISBN met 10 karakters verder doen, probleem gevonden het was een typfout
+* verwijderen comment
+
+### 11/06/2019
+* 6h gewerkt
+* css aanpassingen aan login pagina, registratie pagina, wachtwoord vergeten pagina, GDPR pagina, boek toevoegen pagina (boek toevoegen pagina is nog steeds niet zoals ik het wil) en profiel pagina
+* ISBN gecontroleerd, er waren kleine fouten met de berekining die ik heb aangepast
+
+### 12/06/2019
+* 13h10 gewerkt
+* gemeente tonen met postcode, dit lukt bij de oude versie van ons project (heb ik daar gedaan zo als ik fout deed had dit niet de hele project stuk gemaakt) maar bij het implementeren van de code in de finale project wou er niks werken
+* controle gezet dan commentaar niet leeg is, minsten drie karakters bevat en geprobeerd enter toets te herkennen (als er enkel enters staan is de commentaar niet geldig)
+* de enters wou die niet herkennen, de enige oplossing die ik uiteindelijk had was om de enters veranderen door lege tekst en omdat lege tekst niet toegelaten wordt om een comment te plaatsen worden de enters dus niet aanvaard
+* overbodige bestanden verwijderen
+* css aangepast van de boek toevoegen pagina, profiel nog eens
+* proberen logo te zetten als je het als apk download (niet de appbuilder logo maar ons eigen logo)
+
+### 13/06/2019
+* 11h40 gewerkt
+* heb verder gewerkt aan het probleem van de gemeente en van alles geprobeerd maar niks werkte
+* ik kreeg telkens een error "Uncaught ReferenceError: postcodes is not defined"
+* heel erg lang gezocht naar een oplossing maar niks gevonden
+* dit is de code dat ik had op de oude versie van het project en dit werkte ook:
+function changeProfile() {
+    "use strict";
+    var zipcode = document.getElementById("inptZipcodeProfiel").value;
+    if (zipcode != "") {
+        if (postcodes[zipcode].length > 0) {
+            for (var i in postcodes[zipcode]) {
+                for (var j in postcodes[zipcode][i])
+                // document.getElementById("inptCityProfiel").innerHTML = "<input onclick =look(" + postcodes[zipcode][i].Plaatsnaam + ")>" + "</input>";
+                document.getElementById("inptCityProfiel").innerHTML += "<option onclick =look(" + JSON.stringify(postcodes[zipcode]) + ")>" + JSON.stringify(postcodes[zipcode][i]) + "</option>";
+            }
+        }
+        else {
+            alert("Onbestaande postcode");
+        }
+    }
+    else {
+        alert("Fill in the zipcode.");
+    }
+}
+
+in de html had ik dit:
+<li>
+    <select id="slctWoonplaatsProfiel">
+        <option value=""></option>
+    </select>
+</li>
+* powerpoint
+* filmen app
