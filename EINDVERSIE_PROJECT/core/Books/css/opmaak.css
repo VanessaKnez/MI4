@@ -1,0 +1,183 @@
+.h1Opmaak {
+    text-align: center;
+    margin: 24px auto;
+    font-size: 34px;
+}
+
+.page-content {
+    background: url(background.jpg);
+}
+
+.navbar-inner {
+    background-color: #4D236D;
+}
+
+.title.sliding {
+    color: white;
+}
+
+.icon.material-icons.md-only {
+    color: white;
+}
+
+.panel-close {
+    background-color: #34184C;
+}
+
+.links-list a,
+.navbar .title,
+.icon-back:after,
+.icon-forward:after,
+.icon-next:after,
+.icon-prev:after {
+    color: white;
+}
+
+li {
+    background-color: transparent;
+}
+
+.list ul {
+    margin-top: 10vh;
+    background-color: transparent;
+}
+
+.list .item-content {
+    background-color: transparent;
+}
+
+#btnNavProfiel {
+    margin-top: 15vh;
+}
+
+#btnLogin,
+#btnWachtwoordVergeten,
+#btnRegistreer {
+    border-radius: 10px;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4D236D;
+    color: white;
+    text-align: center;
+}
+
+#btnWachtwoordVergetenLoginPagina,
+#btnRegistreerLoginPagina {
+    background-color: transparent;
+    color: #7A7A7A;
+    font-size: 12px;
+    font-style: oblique;
+}
+
+#btnWachtwoordVergetenLoginPagina {
+    margin-top: -8vh;
+}
+
+#btnLogin {
+    margin-top: 2vh;
+}
+
+#btnRegistreerLoginPagina {
+    top: 5vh;
+}
+
+#inptEmailRegistratie,
+#inptZipcodeRegistratie,
+#inptPasswordRegistratie,
+#inptFirstNameRegistratie,
+#inptLastNameRegistratie,
+#inptCityRegistratie,
+#inptPostalCodeRegistratie,
+#inptPhoneNumberRegistratie,
+#inptPasswordRegistratie,
+#inptConfirmPasswordRegistratie,
+#inptEmailWachtwoordVergeten,
+#inptSchoolRegistratie,
+#inptRichtingRegistratie {
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inptVeldenLogin {
+    margin-top: 0vh;
+}
+
+#inptEmailLogin,
+#inptPasswordLogin {
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::placeholder {
+    color: #999 !important;
+}
+
+#btnGDPRlink {
+    background-color: transparent;
+    margin-top: auto;
+    margin-bottom: -55px;
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+    font-style: oblique;
+}
+
+#ulGDPR {
+    color: #cccccc;
+    font-size: 18px;
+    margin-top: 0vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5%;
+    background-color: transparent;
+}
+
+.pBold {
+    color: #6d329a;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.gdprText {
+    text-align: center;
+}
+
+#imgLogoBoekLogin {
+    margin-top: 18vh;
+    position: relative;
+}
+
+#imgLogoBoekWachtwoordVergeten,
+#imgLogoBoekRegistreer {
+    margin-top: 8vh;
+    position: relative;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.gdprText {
+    text-align: center;
+}
+
+.item-input, 
+.item-inner {
+    width: 78vw;
+    margin-left: auto;
+    margin-right: auto;
+}
