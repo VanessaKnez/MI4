@@ -214,10 +214,10 @@ function changeProfile() {
 }
 
 in de html had ik dit:
-- <li>
-- <select id="slctWoonplaatsProfiel">
-- <option value=""></option>
--  </select>
-- </li>
+-"<li>"
+-"<select id="slctWoonplaatsProfiel">"
+-"<option value=""></option>"
+-"</select>"
+-"</li>"
 * powerpoint
 * filmen app
