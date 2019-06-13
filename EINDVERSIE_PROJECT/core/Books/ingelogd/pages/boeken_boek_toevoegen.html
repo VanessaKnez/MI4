@@ -1,0 +1,86 @@
+<div class="page">
+    <div class="navbar">
+        <div class="navbar-inner sliding">
+            <div class="left">
+                <a href="/" class="link back"> <i class="icon icon-back"></i> <span class="ios-only">Back</span> </a>
+            </div>
+            <div class="title">Add book</div>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="list">
+               <ul>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-input-wrap">
+                                <input type="text" name="toevoegen_ISBN" placeholder="ISBN" id="inptISBNBoekToevoegen"> </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-input-wrap">
+                                <input type="text" name="toevoegen_titel" placeholder="Title" id="inptTitleBoekToevoegen"> </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-input-wrap">
+                                <input type="text" name="toevoegen_auteur" placeholder="Author" id="inptAuthorBoekToevoegen"> </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-input-wrap">
+                                <input type="text" name="toevoegen_school" placeholder="School" id="inptSchoolBoekToevoegen"> </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                            <a class="item-link smart-select smart-select-init" data-open-in="sheet">
+                                    <select name="inptStateBoekToevoegen" id="inptStateBoekToevoegen">
+                                        <option value="new" >New</option>
+                                        <option value="used">Used</option>
+                                    </select>
+                                    <!--<div class="item-content">
+                                        <div class="item-inner"></div>-->
+                                            <div class="item-title">New or used</div>
+                                        <!--</div>
+                                    </div>-->
+                            </a>
+                    </li>
+                    <li class="item-content item-input">
+                            <a class="item-link smart-select smart-select-init" data-open-in="sheet">
+                                    <select name="inptSellOrRentBoekToevoegen" id="inptSellOrRentBoekToevoegen">
+                                        <option value="sell" >Sell</option>
+                                        <option value="rent">Rent</option>
+                                    </select>
+                                    <!--<div class="item-content">
+                                        <div class="item-inner"></div>-->
+                                            <div class="item-title">Sell or rent</div>
+                                        <!--</div>
+                                    </div>-->
+                                </a>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-input-wrap">
+                                <input type="number" name="toevoegen_prijs" placeholder="Price" id="inptPriceBoekToevoegen"> </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-input-wrap">
+                                <input type="file" value="upload" id="submitButton" accept="image/x-png,image/jpeg,image/jpg" style="color: white;" /> 
+                                <p id="demo-determinate-container"></p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        <div class="list">
+                <ul>
+                    <li> <a href="#" onclick="addBook();" class="item-link list-button login-button" id="btnAddBoek">Add book</a> </li>
+                </ul>
+            </div>
+    </div>
+</div>
+<script src="jquery-3.3.1.min.js"></script>

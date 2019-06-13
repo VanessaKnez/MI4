@@ -1,0 +1,204 @@
+.h1Opmaak {
+    text-align: center;
+    margin: 24px auto;
+    font-size: 34px;
+}
+
+.login-screen-content {
+    background-image: url("./img/background.jpg"); 
+}
+
+.page-content {
+    /*background-color: #363F80;*/
+    background: url(background.jpg);
+}
+
+.navbar-inner {
+    background-color: #4D236D;
+}
+
+.title.sliding {
+    color: white;
+}
+
+.icon.material-icons.md-only {
+    color: white;
+}
+
+.panel-close {
+    background-color: #34184C;
+}
+
+.links-list a,
+.navbar .title,
+.icon-back:after,
+.icon-forward:after,
+.icon-next:after,
+.icon-prev:after {
+    color: white;
+}
+
+li {
+    background-color: #34184C;
+}
+
+.list ul {
+    margin-top: 10vh;
+    background-color: transparent;
+}
+
+.list .item-content {
+    background-color: transparent;
+}
+
+.list .item-link {
+    margin-left: -10vw;
+}
+
+#btnNavProfiel {
+    margin-top: 15vh;
+}
+
+#btnProfiel,
+#btnAddBoek,
+#btnCommentaarToevoegen,
+#btnUpdateProfiel {
+    border-radius: 10px;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4D236D;
+    color: white;
+    text-align: center;
+}
+
+#inptUsernameProfiel,
+#inptEmailProfiel,
+#inptZipcodeProfiel,
+#inptCityProfiel,
+#inptSchoolProfiel,
+#inptOptionProfiel,
+#inptPasswordProfiel,
+#inptISBNBoekToevoegen,
+#inptTitleBoekToevoegen,
+#inptAuthorBoekToevoegen,
+#inptSchoolBoekToevoegen,
+#inptCityBoekToevoegen,
+#inptOptionBoekToevoegen,
+#inptStateBoekToevoegen,
+#inptDescriptionBoekToevoegen,
+#inptSellOrRentBoekToevoegen,
+#inptPriceBoekToevoegen,
+#inptGSMProfiel {
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::placeholder {
+    color: #999 !important;
+}
+
+#imgLogoBoekProfiel {
+    margin-top: 8vh;
+    position: relative;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#commentaarSectie {
+    background-color: white;
+    padding: 5%;
+    height: 40vh;
+}
+
+#hrLijn {
+    color: red;
+}
+
+.list .item-inner {
+    color: white;
+}
+
+.toolbar-inner {
+    background-color: #4D236D;
+}
+
+.smart-select-sheet .list {
+    margin-top: -5vh;
+}
+
+.md .sheet-modal .toolbar a.link:not(.tab-link) {
+    color: white;
+}
+
+.smart-select .item-after {
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 68vw;
+    margin-left: 10vw;
+    margin-top: 1vh;
+    max-width: 100%;
+}
+
+.list .item-title {
+    color: #999;
+    margin-left: 10vw;
+    margin-top: 2vh;
+}
+
+#submitButton {
+    border-radius: 4px;
+    width: 70vw;
+    height: 3vh;
+    background-color: #4D236D;
+    color: white;
+    text-align: center;
+}
+
+input[type="file"] {
+    background-color: red;
+}
+
+#btnAddBoek {
+    margin-top: -10vh;
+}
+
+.aurora .button-outline-aurora, .button-outline, .ios .button-outline-ios, .md .button-outline-md {
+    border-radius: 10px;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #4D236D;
+    color: #4D236D;
+    background-color: white;
+    color: #4D236D;
+    text-align: center;
+}
+
+textarea {
+    width: 90vw;
+    height: 15vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    padding: 2%;
+    border-top: 2px solid #404040;
+    border: 2px solid #404040;
+    border-radius: 10px;
+}
+
+.item-input, 
+.item-inner {
+    width: 78vw;
+    margin-left: auto;
+    margin-right: auto;
+}

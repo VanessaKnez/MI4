@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#2196f3">
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+  <title>Book</title>
+  <link rel="stylesheet" href="./../packages/core/css/framework7.bundle.min.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="apple-touch-icon" href="img/f7-icon-square.png">
+  <link rel="icon" href="img/logoBooks.jpg">
+  <link rel="stylesheet" href="css/opmaak.css">
+</head>
+<body onload="laadIndexBoeken()">
+  <div id="app">
+    <div class="statusbar"></div>
+    <div class="panel panel-left panel-cover panel-resizable">
+      <div class="page">
+        <div class="page-content">
+          <div class="list links-list">
+            <ul>
+              <li>
+                <a href="/profiel/" onclick="setTimeout(profileLoad,10)" class="panel-close">Profile</a>
+              </li>
+              <li>
+                <a href="/boekToevoegen/" class="panel-close">Add-book</a>
+              </li>
+              <li>
+                <a href="/bewaardeBoeken/" onclick="setTimeout(laadBewaardeBoeken,10)" class="panel-close">My favorites</a>
+              </li>
+              <li>
+                <a href="/persoonlijkeBoeken/" onclick="setTimeout(laadPersoonlijkeBoeken,10)" class="panel-close">Personal Books</a>
+              </li>
+              <li>
+                <a href="#" class="panel-close" onclick="reloadPage()">Reload page</a>
+              </li>
+              <li>
+                  <a href="" onclick="logout()" class="panel-close">Logout</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="views  ios-edges">
+        <!-- Tabbar for switching views-tabs -->
+
+    <div class="view view-main view-init safe-areas" data-master-detail-breakpoint="800" data-url="/">
+      <div class="page">
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="left">
+              <a href="#" class="link icon-only panel-open" data-panel="left">
+                <i class="icon f7-icons if-not-md">menu</i>
+                <i class="icon material-icons md-only">menu</i>
+              </a>
+              <div class="title sliding">Home</div>
+            </div>
+          </div>
+        </div>
+        <div class="page-content">
+            <div id="indexBoeken"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.7/xlsx.core.min.js"></script>
+  <script src="./../packages/core/js/framework7.bundle.min.js"></script>
+  <script src="js/routes.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
