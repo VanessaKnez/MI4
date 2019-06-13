@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 var routes = [
   // Index page
   {
@@ -44,7 +45,11 @@ var routes = [
     url: './pages/profiel.html'
 },
 {
-    path: '/testcommentsection/',
-    url: './pages/testcommentsection.html'
-},    
+    path: '/searchbar/',
+    url: './pages/searchbartest.html'
+},
+{
+    path: '/GDPR/',
+    url: './pages/GDPR.html'
+},
 ];
