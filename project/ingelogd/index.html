@@ -7,11 +7,12 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="theme-color" content="#2196f3">
   <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
-  <title>Framework7</title>
+  <title>Book</title>
   <link rel="stylesheet" href="../../../packages/core/css/framework7.bundle.min.css">
   <link rel="stylesheet" href="css/app.css">
   <link rel="apple-touch-icon" href="img/f7-icon-square.png">
-  <link rel="icon" href="img/f7-icon.png">
+  <link rel="icon" href="img/logoBooks.jpg">
+  <link rel="stylesheet" href="css/opmaak.css">
 </head>
 <body onload="laadIndexBoeken()">
   <div id="app">
@@ -22,23 +23,23 @@
           <div class="list links-list">
             <ul>
               <li>
-                <a href="/profiel/" class="panel-close">Profiel</a>
-              </li>
-              <li>
-                <a href="/boeken/" class="panel-close">Books</a>
+                <a href="/profiel/" onclick="setTimeout(profileLoad,10)" class="panel-close">Profile</a>
               </li>
               <li>
                 <a href="/boekToevoegen/" class="panel-close">Add-book</a>
               </li>
               <li>
-                <a href="/bewaardeBoeken/" class="panel-close">Saved Books</a>
+                <a href="/bewaardeBoeken/" onclick="setTimeout(laadBewaardeBoeken,10)" class="panel-close">My favorites</a>
               </li>
               <li>
-                <a href="/persoonlijkeBoeken/" onclick="laadPersoonlijkeBoeken()" class="panel-close">Personal Books</a>
+                <a href="/persoonlijkeBoeken/" onclick="setTimeout(laadPersoonlijkeBoeken,10)" class="panel-close">Personal Books</a>
               </li>
               <li>
-                <a href="/chat/" class="panel-close">Chat</a>
+                <a href="#" class="panel-close" onclick="reloadPage()">Reload page</a>
               </li>
+              <li>
+                  <a href="" onclick="logout()" class="panel-close">Logout</a>
+                </li>
             </ul>
           </div>
         </div>
@@ -46,28 +47,7 @@
     </div>
     <div class="views  ios-edges">
         <!-- Tabbar for switching views-tabs -->
-        <div class="toolbar tabbar-labels toolbar-bottom-md">
-            <div class="toolbar-inner">
-              <a href="/registreer/" class="tab-link">
-                <i class="icon f7-icons ios-only">list</i>
-                <i class="icon f7-icons ios-only icon-ios-fill">list_fill</i>
-                <i class="icon material-icons md-only">view_list</i>
-                <span class="tabbar-label">Register</span>
-              </a>
-              <a href="/login/" class="tab-link">
-                <i class="icon f7-icons ios-only">account_box</i>
-                <i class="icon f7-icons ios-only icon-ios-fill">account_box</i>
-                <i class="icon material-icons md-only">account_box</i>
-                <span class="tabbar-label">Login</span>
-              </a>
-            <a href="" onclick="Logout()" class="tab-link">
-                <i class="icon f7-icons ios-only">account_box</i>
-                <i class="icon f7-icons ios-only icon-ios-fill">account_box</i>
-                <i class="icon material-icons md-only">account_box</i>
-                <span class="tabbar-label">Logout</span>
-              </a>
-            </div>
-        </div>
+
     <div class="view view-main view-init safe-areas" data-master-detail-breakpoint="800" data-url="/">
       <div class="page">
         <div class="navbar">

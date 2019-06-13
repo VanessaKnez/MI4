@@ -1,0 +1,255 @@
+.h1Opmaak {
+    text-align: center;
+    margin: 24px auto;
+    font-size: 34px;
+}
+
+.login-screen-content {
+    background-image: url("./img/background.jpg"); 
+}
+
+.page-content {
+    /*background-color: #363F80;*/
+    background: url(background.jpg);
+}
+
+.navbar-inner {
+    background-color: #4D236D;
+}
+
+.title.sliding {
+    color: white;
+}
+
+.icon.material-icons.md-only {
+    color: white;
+}
+
+.panel-close {
+    background-color: #34184C;
+}
+
+.links-list a,
+.navbar .title,
+.icon-back:after,
+.icon-forward:after,
+.icon-next:after,
+.icon-prev:after {
+    color: white;
+}
+
+li {
+    background-color: #34184C;
+}
+
+.list ul {
+    margin-top: 10vh;
+}
+
+#btnNavProfiel {
+    margin-top: 15vh;
+}
+
+#btnLogin,
+#btnWachtwoordVergeten,
+#btnRegistreer,
+#btnProfiel,
+#btnAddBoek,
+#btnCommentaarToevoegen,
+#btnUpdateProfiel {
+    border-radius: 10px;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4D236D;
+    color: white;
+    text-align: center;
+}
+
+#btnWachtwoordVergetenLoginPagina,
+#btnRegistreerLoginPagina {
+    background-color: transparent;
+    color: #7A7A7A;
+    font-size: 12px;
+    font-style: oblique;
+}
+
+#btnWachtwoordVergetenLoginPagina {
+    margin-top: -8vh;
+}
+
+#btnLogin {
+    margin-top: 2vh;
+}
+
+#btnRegistreerLoginPagina {
+    top: 10vh;
+}
+
+#inptEmailRegistratie,
+#inptPasswordRegistratie,
+#inptFirstNameRegistratie,
+#inptLastNameRegistratie,
+#inptCityRegistratie,
+#inptPostalCodeRegistratie,
+#inptPhoneNumberRegistratie,
+#inptPasswordRegistratie,
+#inptConfirmPasswordRegistratie,
+#inptUsernameProfiel,
+#inptEmailProfiel,
+#inptZipcodeProfiel,
+#inptCityProfiel,
+#inptSchoolProfiel,
+#inptOptionProfiel,
+#inptPasswordProfiel,
+#inptISBNBoekToevoegen,
+#inptTitleBoekToevoegen,
+#inptAuthorBoekToevoegen,
+#inptSchoolBoekToevoegen,
+#inptCityBoekToevoegen,
+#inptOptionBoekToevoegen,
+#inptStateBoekToevoegen,
+#inptDescriptionBoekToevoegen,
+#inptSellOrRentBoekToevoegen,
+#inptPriceBoekToevoegen,
+#inptEmailWachtwoordVergeten,
+#inptSchoolRegistratie,
+#inptRichtingRegistratie,
+#inptGSMProfiel {
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inptVeldenLogin {
+    margin-top: 0vh;
+}
+
+#inptEmailLogin,
+#inptPasswordLogin {
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::placeholder {
+    color: #999 !important;
+}
+
+#btnGDPRlink {
+    background-color: transparent;
+    margin-top: auto;
+    margin-bottom: -55px;
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+    font-style: oblique;
+}
+
+#imgLogoBoekLogin {
+    margin-top: 18vh;
+    position: relative;
+}
+
+#imgLogoBoekWachtwoordVergeten,
+#imgLogoBoekRegistreer,
+#imgLogoBoekProfiel {
+    margin-top: 8vh;
+    position: relative;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.pBold {
+    color: #6d329a;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.gdprText {
+    text-align: center;
+}
+
+#commentaarSectie {
+    background-color: white;
+    padding: 5%;
+    height: 40vh;
+}
+
+#hrLijn {
+    color: red;
+}
+
+#ulGDPR {
+    color: #cccccc;
+    font-size: 18px;
+    margin-top: 0vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5%;
+    background-color: transparent;
+}
+
+.list .item-inner {
+    color: white;
+}
+
+.toolbar-inner {
+    background-color: #4D236D;
+}
+
+.smart-select-sheet .list {
+    margin-top: -5vh;
+}
+
+.md .sheet-modal .toolbar a.link:not(.tab-link) {
+    color: white;
+}
+
+.smart-select .item-after {
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 68vw;
+    margin-left: 10vw;
+    margin-top: 1vh;
+    max-width: 100%;
+}
+
+.list .item-title {
+    color: #999;
+    margin-left: 10vw;
+    margin-top: 2vh;
+}
+
+#submitButton {
+    border-radius: 10px;
+    width: 70vw;
+    height: 5vh;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    background-color: #4D236D;
+    color: white;
+    text-align: center;
+}
+
+input[type="file"] {
+    background-color: red;
+}
+
+#btnAddBoek {
+    margin-top: -5vh;
+}

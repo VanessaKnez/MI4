@@ -12,35 +12,37 @@
                <ul>
                     <li class="item-content item-input">
                         <div class="item-inner">
-                            <div class="item-title item-label">ISBN</div>
                             <div class="item-input-wrap">
-                                <input type="text" name="toevoegen_ISBN" placeholder="ISBN" id="toevoegen_ISBN"> </div>
+                                <input type="number" name="toevoegen_ISBN" placeholder="ISBN" id="inptISBNBoekToevoegen"> </div>
                         </div>
                     </li>
                     <li class="item-content item-input">
                         <div class="item-inner">
-                            <div class="item-title item-label">Title</div>
                             <div class="item-input-wrap">
-                                <input type="text" name="toevoegen_titel" placeholder="Title" id="toevoegen_titel"> </div>
+                                <input type="text" name="toevoegen_titel" placeholder="Title" id="inptTitleBoekToevoegen"> </div>
                         </div>
                     </li>
                     <li class="item-content item-input">
                         <div class="item-inner">
-                            <div class="item-title item-label">Author</div>
                             <div class="item-input-wrap">
-                                <input type="text" name="toevoegen_auteur" placeholder="Author" id="toevoegen_auteur"> </div>
+                                <input type="text" name="toevoegen_auteur" placeholder="Author" id="inptAuthorBoekToevoegen"> </div>
                         </div>
                     </li>
                     <li class="item-content item-input">
                         <div class="item-inner">
-                            <div class="item-title item-label">State</div>
                             <div class="item-input-wrap">
-                                <input type="text" name="toevoegen_staat" placeholder="School" id="toevoegen_staat"> </div>
+                                <input type="text" name="toevoegen_school" placeholder="School" id="inptSchoolBoekToevoegen"> </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-input-wrap">
+                                <input type="text" name="toevoegen_staat" placeholder="State" id="inptStateBoekToevoegen"> </div>
                         </div>
                     </li>
                     <li class="item-content item-input">
                             <a class="item-link smart-select smart-select-init" data-open-in="sheet">
-                                    <select name="toevoegen_verkoopOfVerhuur" id="toevoegen_verkoopOfVerhuur">
+                                    <select name="toevoegen_verkoopOfVerhuur" id="inptSellOrRentBoekToevoegen">
                                         <option value="sell" >Sell</option>
                                         <option value="rent">Rent</option>
                                     </select>
@@ -53,30 +55,26 @@
                     </li>
                     <li class="item-content item-input">
                         <div class="item-inner">
-                            <div class="item-title item-label">Price</div>
                             <div class="item-input-wrap">
-                                <input type="number" name="toevoegen_prijs" placeholder="Price" id="toevoegen_prijs"> </div>
+                                <input type="number" name="toevoegen_prijs" placeholder="Price" id="inptPriceBoekToevoegen"> </div>
                         </div>
                     </li>
                     <li class="item-content item-input">
-                        <a class="item-link smart-select smart-select-init" data-open-in="sheet">
-                            <select name="toevoegen_favoriet" id="toevoegen_favoriet">
-                                <option value="yes" selected>yes</option>
-                                <option value="no">no</option>
-                            </select>
-                            <!--<div class="item-content">
-                                <div class="item-inner"></div>-->
-                                    <div class="item-title">Favorite</div>
-                                <!--</div>
-                            </div>-->
-                        </a>
+                        <div class="item-inner">
+                            <div class="item-input-wrap">
+                                <input type="file" value="upload" id="submitButton" accept="image/x-png,image/jpeg,image/jpg" style="color: white;" /> 
+                                <p id="demo-determinate-container"></p>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
         <div class="list">
                 <ul>
-                    <li> <a href="#" onclick="AddBook();" class="item-link list-button login-button">Add book</a> </li>
+                    <li> <a href="#" onclick="addBook();" class="item-link list-button login-button" id="btnAddBoek">Add book</a> </li>
+                    <li> <a href="#" onclick="test();" class="item-link list-button login-button" id="test">tset</a> </li>
                 </ul>
             </div>
     </div>
 </div>
+<script src="jquery-3.3.1.min.js"></script>
