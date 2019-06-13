@@ -214,10 +214,12 @@ function changeProfile() {
 }
 
 in de html had ik dit:
--"<li>"
--"<select id="slctWoonplaatsProfiel">"
--"<option value=""></option>"
--"</select>"
--"</li>"
+li
+select id="slctWoonplaatsProfiel
+option value=""></option
+/select
+/li
+
+het is niet juist geschreven, voor een of andere reden wordt het dan niet getoond als het juist geschreven is
 * powerpoint
 * filmen app
